@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    overscroll-behavior: none;
+}
+
 .linear-gradient {
   background: linear-gradient(
     179.14deg,
