@@ -7,7 +7,7 @@ import { CustomButton, FormField } from '../components'
 import { checkIfImage } from '../utils'
 
 const CreateCampaign = () => {
-  const { createCampaign } = useStateContext
+  const { createCampaign } = useStateContext()
   const navigate = useNavigate()
   const [isLoading, setIsLoading] = useState(false)
   const [form, setForm] = useState({
