@@ -1,10 +1,12 @@
-# Web3 crowd funding app by CheeterLee
+# Web3 crowd funding app by cheeterLee
 
-Powered by **ReactJS**, **TailwindCSS**, **Solidity**, **Thirdweb**.  
+- Powered by **ReactJS**, **TailwindCSS**, **Solidity**, **Thirdweb**.  
 
-Being tested on Goerli Test Network.  
+- User can either create their own campaign to fund money or donate to campaigns found by others.  
 
-Deployed at https://playful-yeot-9793fd.netlify.app/
+- Being tested on Goerli Test Network. 
+
+- Deployed at https://playful-yeot-9793fd.netlify.app/
 
 ## Connecting with MetaMask wallet
 
@@ -12,8 +14,8 @@ Deployed at https://playful-yeot-9793fd.netlify.app/
 
 ## Creating you own campaign
 
-<img width="1418" alt="image" src="https://user-images.githubusercontent.com/87960642/207782235-7ab30c8c-988f-4aff-a4f1-5d6a59945240.png">
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/87960642/207863971-d91ac853-4608-4334-a591-7a7e3d9c6d06.png">
 
 ## Donating to other compaigns
 
-<img width="1416" alt="image" src="https://user-images.githubusercontent.com/87960642/207782439-a18d4f61-41b6-4030-a82d-d6b6d7c26c77.png">
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/87960642/207864074-b4f863e6-90b0-46d9-9b8a-573744339514.png">
