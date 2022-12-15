@@ -8,7 +8,7 @@ contract Crowdfunding {
         string description;
         uint256 target;
         uint256 deadline;
-        uint256 ammountCollected;
+        uint256 amountCollected;
         string image;
         address[] donators;
         uint256[] donations;
@@ -30,7 +30,7 @@ contract Crowdfunding {
         campaign.description = _description;
         campaign.target = _target;
         campaign.deadline = _deadline;
-        campaign.ammountCollected = 0;
+        campaign.amountCollected = 0;
         campaign.image = _image;
 
         numberOfCampaigns++;
@@ -47,7 +47,7 @@ contract Crowdfunding {
         (bool sent, ) = payable(campaign.owner).call{value: amount}("");
 
         if (sent) {
-            campaign.ammountCollected = campaign.ammountCollected + amount;
+            campaign.amountCollected = campaign.amountCollected + amount;
         }
     }
 
